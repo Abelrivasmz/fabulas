@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&family=Permanent+Marker&display=swap');
+
+* {
+    font-family: 'Caveat', cursive,
+    'Permanent Marker', cursive,
+    'Fredoka One', cursive;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background:url("./assets/bg.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+#pagina {
+    max-width: 680px;
+    border: solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.h1 {margin-bottom: 5px;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+}
+.h2 {
+    margin: 1px;
+    color: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+.subtitulo {
+    margin: 1px;
+    display: grid;
+    justify-content: center;
+    color: crimson;
+    font-family: 'Permanent Marker', cursive;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#audio {
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+}
+.imagen {
+    width: 420px;
+    display: grid;
+    justify-content: center;
+}
+.paUno {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #369090;
+    color: midnightblue;
+}
+span {
+    color: yellow;
+}
+.h3 {
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: darkmagenta;
+    color: yellow;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.padre {
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00425A;
+    width: 225px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.hijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background-color: #1F8A70;
+    width: 120px;
+    height: 135px;
+    border-radius: 20px;
+}
+.miniatura {
+    width: 100px;
+    border-radius: 20px;
+}
+.btnBonito {
+    width: 120px;
+    height: 40px;
+    background-color: crimson;
+    border: solid chartreuse;
+    font-family: 'Fredoka One', cursive;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 60px;
+    right: 10px;
+}

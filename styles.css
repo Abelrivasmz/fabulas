@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&family=Permanent+Marker&display=swap');
+
+body {
+    background:url("./fabulas/assets/bg.png") no-repeat;
+    font-family: sans-serif;margin: 0px;
+    font-family: 'Caveat', cursive,
+    'Permanent Marker', cursive,
+    'Fredoka One', cursive;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: flex;
+    background-color: #14161a;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: solid cyan;
+    font-family: sans-serif;margin: 0px;
+}
+header a:hover {
+    color: chartreuse;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 56px;
+    margin-right: 10px;
+}
+nav a {
+    font-weight: 600;
+    padding: 10px;
+}
+nav a:hover {
+    color: chartreuse;
+}
+
+@media (max-width: 680px){
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: solid red;
+    height: 100vh;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: darkorange;
+}
+.tarjetas {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    border: solid lawngreen;
+    text-align: center;
+}
+.card {
+    color: cyan;
+    font-family: 'Fredoka One', cursive;
+}
+#min {
+    width: 200px;
+}
